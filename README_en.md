@@ -3,21 +3,21 @@
 
 <p align="center">
      <a href="https://github.com/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-BigSur/releases">
-      <img alt="GitHub release" src="https://img.shields.io/github/v/release/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-BigSur?label=EFI%20Ver." />
+      <img alt="GitHub release" src="https://img.shields.io/github/v/release/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-Monterey?label=EFI%20Ver." />
     </a>
     <a href="https://github.com/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-BigSur/releases">
-      <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-BigSur" />    
+      <img alt="GitHub Release Date" src="https://img.shields.io/github/release-date/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-Monterey" />    
       </a>
       <a href="https://github.com/seanzhang98">
       <img alt="Maintainer" src="https://img.shields.io/badge/Maintainer-%40seanzhang98-yellowgreen" />
     </a>
     </br>
-    <a href="https://www.apple.com/macos/big-sur-preview/">
-      <img alt="Supported OS" src="https://img.shields.io/badge/Supported OS-macOS%20Big%20Sur-blueviolet" />
+    <a href="https://www.apple.com/macos/Monterey-preview/">
+      <img alt="Supported OS" src="https://img.shields.io/badge/Supported OS-macOS%20Monterey-blueviolet" />
       <a href="https://developer.apple.com/documentation/macos-release-notes">
-      <img alt="OS version" src="https://img.shields.io/badge/Version-11.5 Beta (20G5033c)-ff69b4" />
+      <img alt="OS version" src="https://img.shields.io/badge/Version-12.0 Beta-ff69b4" />
       <a href="https://github.com/acidanthera/OpenCorePkg/releases/">
-      <img alt="OC Ver" src="https://img.shields.io/badge/OpenCore Ver.-0.7.0%20(release)-191970" />
+      <img alt="OC Ver" src="https://img.shields.io/badge/OpenCore Ver.-0.7.1%20(release)-191970" />
       </br>
     </p>
 <p align="center">
