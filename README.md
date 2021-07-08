@@ -105,7 +105,7 @@
 | 原生 NVRAM | ⭕️   |                                                                                                                                             |
 | USB      | ⭕️   |                                                                                                                                             |
 | 雷霹 3     | ⭕️  | [雷霹 3 驱动教程](#tb3)                                                                                                                           |
-| DRM      | ⭕️  | iMac19,1 在 Big Sur 环境下需要运行代码以启用 Apple TV 串流。[详情](#drm)|
+| DRM      | ⭕️  | iMac19,1 在 Big Sur 环境下需要运行代码以启用 Apple TV 以及 Apple Music 无损串流。[详情](#drm)|
 | 硬件加速     | ⭕️  | 支持 H264 以及 HEVC 硬件加速                                                                                                                        |
 | 内存 | ⭕️   |  正常识别内存，Mac Pro7,1 下无内存报错                                                                                                                                           |
 </br>
@@ -299,7 +299,7 @@ Windows 下可能需要手动安装驱动才能使用 Wi-Fi 和 蓝牙功能。
   - 解决方案: 禁用该补丁或者用 bios 来引导 
 </br>
   
-* **<span id="drm">我的设备不支持 Apple TV DRM ？</span>**
+* **<span id="drm">我的设备不支持 Apple TV DRM / Apple Music 无损音乐 DRM ？</span>**
   
   - 解决方案: 运行
 
