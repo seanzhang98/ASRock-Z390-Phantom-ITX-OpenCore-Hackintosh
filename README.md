@@ -296,19 +296,19 @@ Windows 下可能需要手动安装驱动才能使用 Wi-Fi 和 蓝牙功能。
 
 * **补丁 change _E2C to XE2C 会导致使用 OC 引导 Windows 系统时报 APIC 错误。**
   
-  - 解决方案: 禁用该补丁或者用 bios 来引导 Windows。
-  </br>
+  - 解决方案: 禁用该补丁或者用 bios 来引导 
+</br>
   
 * **<span id="drm">我的设备不支持 Apple TV DRM ？</span>**
   
   - 解决方案: 运行
-  
+</br>  
   ```
   defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
   ```
-  
+</br>  
   强制启用 AMD DRM 解码器以支持串流服务 (像 Apple TV 以及 iTunes 电影串流)
-  </br>
+</br>
   
 * **部分电脑关机后开机可能会提示 “电脑关机是因为发生了问题”。**
 
