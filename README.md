@@ -303,9 +303,9 @@ Windows 下可能需要手动安装驱动才能使用 Wi-Fi 和 蓝牙功能。
   
   - 解决方案: 运行
 
-  ```
-  defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
-  ```
+    ```
+    defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
+    ```
 
   强制启用 AMD DRM 解码器以支持串流服务 (像 Apple TV 以及 iTunes 电影串流)
 </br>
@@ -318,9 +318,9 @@ Windows 下可能需要手动安装驱动才能使用 Wi-Fi 和 蓝牙功能。
 * **Windows 10 时间与 macOS 不同步 。** 
 
   - 解决方案：Windows 10 下 CMD 执行：</br>
-```
-Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
-```
+    ```
+    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+    ```
 </br>
 
 
