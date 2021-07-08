@@ -318,6 +318,7 @@ Windows 下可能需要手动安装驱动才能使用 Wi-Fi 和 蓝牙功能。
 * **Windows 10 时间与 macOS 不同步 。** 
 
   - 解决方案：Windows 10 下 CMD 执行：</br>
+  
     ```
     Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
     ```
