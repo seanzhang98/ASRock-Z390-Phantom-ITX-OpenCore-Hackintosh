@@ -299,7 +299,7 @@ The latest release of this EIF is using the `FakeSMC` by `CloverHackyColor` whic
     ```
     
   forces AMD DRM decoder for streaming services (like Apple TV and iTunes movie streaming)
-  </br>
+</br>
 
 * **Time do not sync between Windows 10 and macOS.** 
 
