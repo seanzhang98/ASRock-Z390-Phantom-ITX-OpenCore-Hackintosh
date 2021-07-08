@@ -307,7 +307,7 @@ Windows 下可能需要手动安装驱动才能使用 Wi-Fi 和 蓝牙功能。
     defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
     ```
 
-  强制启用 AMD DRM 解码器以支持串流服务 (像 Apple TV 以及 iTunes 电影串流)
+    强制启用 AMD DRM 解码器以支持串流服务 (像 Apple TV 以及 iTunes 电影串流)
 </br>
   
 * **部分电脑关机后开机可能会提示 “电脑关机是因为发生了问题”。**
