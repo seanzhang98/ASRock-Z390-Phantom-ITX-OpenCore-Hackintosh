@@ -295,7 +295,7 @@ The latest release of this EIF is using the `FakeSMC` by `CloverHackyColor` whic
   - Solution: Run
 
     ```
-defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
+    defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
     ```
     
   forces AMD DRM decoder for streaming services (like Apple TV and iTunes movie streaming)
