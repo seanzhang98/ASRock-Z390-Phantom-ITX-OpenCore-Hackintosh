@@ -287,15 +287,17 @@ The latest release of this EIF is using the `FakeSMC` by `CloverHackyColor` whic
 
 * **The enable of the patch change _E2C to XE2C will cause APIC Error while booting Windows with OC**
   
-  Solution: disable the TB3 Function or boot Windows with BIOS interface.
+  - Solution: disable the TB3 Function or boot Windows with BIOS interface.
 </br>
   
 * **<span id="drm">My device dose not support Apple TV + / Apple Music lossless Audio?</span>**
   
-  Solution: Run
+  - Solution: Run
+
     ```
   defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
     ```
+    
   forces AMD DRM decoder for streaming services (like Apple TV and iTunes movie streaming)
   </br>
 
