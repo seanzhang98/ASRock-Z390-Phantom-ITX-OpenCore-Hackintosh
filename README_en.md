@@ -101,7 +101,7 @@
 | NVRAM                | ⭕️                 |                                                                                                                                                                                                                                          |
 | USB                  | ⭕️                 |                                                                                                                                                                                                                                          |
 | Thunderbolt 3        | ⭕️                 | [Thunderbolt 3](#tb3)                                                                                                                                                                                                                    |
-| DRM                  | ⭕️  | The DRM required by Apple TV + can be force enable by running override codes [For more info](#drm)|
+| DRM                  | ⭕️  | The DRM required by Apple TV + and Apple Music lossless Audio can be force enable by running override codes [For more info](#drm)|
 | Hardware acceleration | ⭕️                 | Support H264 and HEVC                                                                                                                                                                                                                    |
 | RAM | ⭕️   |  Mac Pro7,1 without error                                                                                                                                          |
 </br>
@@ -290,12 +290,12 @@ The latest release of this EIF is using the `FakeSMC` by `CloverHackyColor` whic
   Solution: disable the TB3 Function or boot Windows with BIOS interface.
 </br>
   
-* **<span id="drm">My device dose not support Apple TV + ?</span>**
+* **<span id="drm">My device dose not support Apple TV + / Apple Music lossless Audio?</span>**
   
   Solution: Run
-  ```
+    ```
   defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
-  ```
+    ```
   forces AMD DRM decoder for streaming services (like Apple TV and iTunes movie streaming)
   </br>
 
@@ -303,7 +303,7 @@ The latest release of this EIF is using the `FakeSMC` by `CloverHackyColor` whic
 
   - Solution：In Windows 10, run following code in CMD </br>
     ```
-    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+    Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation v RealTimeIsUniversal /t REG_DWORD /d 1
     ```
 </br>
 
