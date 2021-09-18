@@ -15,9 +15,8 @@
     <a href="https://www.apple.com/macos/Monterey-preview/">
       <img alt="Supported OS" src="https://img.shields.io/badge/Supported OS-macOS%20Monterey-blueviolet" />
       <a href="https://developer.apple.com/documentation/macos-release-notes">
-      <img alt="OS version" src="https://img.shields.io/badge/Version-12.0 Beta-21A5294g" />
+      <img alt="OS version" src="https://img.shields.io/badge/Version-12.X-21A5294g" />
       <a href="https://github.com/acidanthera/OpenCorePkg/releases/">
-      <img alt="OC Ver" src="https://img.shields.io/badge/OpenCore Ver.-0.7.2%20(release)-191970" />
       </br>
     </p>
 <p align="center">
