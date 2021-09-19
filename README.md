@@ -109,6 +109,25 @@
 | 内存 | ⭕️   |  正常识别内存，Mac Pro7,1 下无内存报错                                                                                                                                           |
 </br>
 
+| Kext 名称     | 作用                                                                                                         |
+|:--------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|
+| ACPIMonitor.kext     | 支持定制的 ACPI                                                                                                                                        |
+| AppleALC.kext       | 声卡驱动                                                                                                                                |
+| FakeSMC.kext       |SMC 驱动                                                                                                                |
+| IntelCPUMonitor.kext     |CPU 传感器驱动                                                                                                                                             |
+| IntelMausi.kext    | 有线网卡驱动                                                                                                                                             |
+| Lilu.kext       |                                                                                                                                            |
+| NVMeFix.kext       |  NVMe 兼容性驱动                                                                                                                                             |
+| RadeonMonitor.kext       | AMD 显卡传感器驱动                                                                                                                                                                                                                                                                                                                                                                                         |
+| USBPorts.kext    |  USB 定制驱动                                                                                                                                                                                                                                                                                |
+| W836x.kext |  主板传感器驱动                                                                                                                                                                                                                                                                                    |
+| WhateverGreen.kext |  显卡驱动                                                                                                                                                                                                                                                                                    |
+</br>
+            
+
+
+
+
 
 ![image](https://raw.githubusercontent.com/seanzhang98/ASRock-Z390-Phantom-ITX-OpenCore-Hackintosh-Monterey/main/imgs/sidecar.png)
 
