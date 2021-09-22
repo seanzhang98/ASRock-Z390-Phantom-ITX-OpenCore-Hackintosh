@@ -203,7 +203,7 @@
 			<key>AvoidRuntimeDefrag</key>
 			<true/>
 			<key>DevirtualiseMmio</key>
-			<true/>
+			<false/>
 			<key>DisableSingleUser</key>
 			<false/>
 			<key>DisableVariableWrite</key>
@@ -682,7 +682,7 @@
 			<key>ApplePanic</key>
 			<false/>
 			<key>DisableWatchDog</key>
-			<false/>
+			<true/>
 			<key>DisplayDelay</key>
 			<integer>0</integer>
 			<key>DisplayLevel</key>
@@ -994,7 +994,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>alcid=7 darkwake=0 agdpmod=pikera</string>
+				<string>alcid=7 darkwake=0 agdpmod=pikera slide=1</string>
 				<key>csr-active-config</key>
 				<data>DnCwAA==</data>
 				<key>prev-lang:kbd</key>
