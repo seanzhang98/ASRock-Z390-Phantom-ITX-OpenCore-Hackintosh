@@ -244,17 +244,6 @@
 	<dict>
 		<key>Add</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>ATY,DeviceName</key>
-				<string>5700</string>
-				<key>ATY,FamilyName</key>
-				<string>Radeon RX</string>
-				<key>model</key>
-				<string>Radeon RX 5700</string>
-				<key>shikigva</key>
-				<integer>80</integer>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -277,6 +266,23 @@
 				<data>AgAAAA==</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>@0,name</key>
+				<string>ATY,Adder</string>
+				<key>@1,name</key>
+				<string>ATY,Adder</string>
+				<key>@2,name</key>
+				<string>ATY,Adder</string>
+				<key>@3,name</key>
+				<string>ATY,Adder</string>
+				<key>ATY,DeviceName</key>
+				<string>5700</string>
+				<key>ATY,FamilyName</key>
+				<string>Radeon RX</string>
+				<key>model</key>
+				<string>Radeon RX 5700</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -689,6 +695,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>0</integer>
+			<key>LogModules</key>
+			<string>*</string>
 			<key>SerialInit</key>
 			<false/>
 			<key>SysReport</key>
@@ -996,7 +1004,7 @@
 				<key>SystemAudioVolume</key>
 				<data>UA==</data>
 				<key>boot-args</key>
-				<string>alcid=7 darkwake=0 agdpmod=pikera slide=1</string>
+				<string>alcid=7 darkwake=0 agdpmod=pikera slide=1 shikigva=80 </string>
 				<key>csr-active-config</key>
 				<data>DnCwAA==</data>
 				<key>prev-lang:kbd</key>
